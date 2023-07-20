@@ -1,85 +1,89 @@
-<!doctype html>
+<!doctype html><!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <title>Flamboyant</title>
+    <title>La Vanille Envoutante</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<div class="p-5 text-center head">
+    <h1> <img src="Vanilleapres.jpg" alt="" style="width: 200px">La Vanille Envoutante<img src="Vaniile_Avant.jpg" alt="" style="width: 200px"></h1>
+    <p>Explorez l'univers envoutant de la vanille</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Produit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">A propos</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
-        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Galerie </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Article</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Evenemnts</a>
+            </li>
+        </ul>
     </div>
 </nav>
-<div class="container-fluid bannier">
-    <div class="description">
-        <h2>Découvrez un monde enchanté où la nature et la beauté se rejoignent</h2>
-        <p>Preparez vous à être transporté dans une forêt magique e vivante</p>
-        <a href="#" class="btn btn-primary">Explorez</a>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Qui sommes nous ?</h2>
+            <div class="fakeimg"><img src="JDMEUS_LOGO_COULEURS.png" alt="" style="width: 200px"></div>
+            <p class="mt-3">Situé dans l’Est de l’Île de La Réunion, le Jardin des mille et une saveurs a pour origine la passion d’Aniel, agriculteur de père en fils sur trois générations. retrouvez nous <a href="http://www.jardindesmillesetunesaveurs.com/">ici</a></p>
+            <h3 class="mt-4">Some Links</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-8">
+            <h2>Vanille d'exellence</h2>
+            <h5>La douceur époustflante</h5>
+            <div class="fakeimg"><img src="vanille.jpg" alt="" style="width: 60%"></div>
+            <p class="mt-3"><strong>Origine :</strong></p>
+            <p>La vanille provient des gousses de l'orchidés Vanilla planifola, une plante grimpante originaire des régions tropicales d'amériques cenrale et du sud. Plus
+                précisementn on la trouve principalement au Méxique et au Gutemal, bien que d'autres variétés d'orchidées Vanilla existent dnas d'autres parties du monde
+            </p>
+            <h2 class="mt-5">Echaudage de la vanille </h2>
+            <p class="mt-3"><strong>Presentation :</strong></p>
+            <p>Permettez nous de vous presentez une brief videio sur l'echaudage de la vanille, une étape essentielle dnas le processus de production de cette épices d'exeption</p>
+            <div class="fakeimg">
+                <video src="Echaudage%20de%20la%20Vanille.mp4" controls width="100%"></video>
+            </div>
+        </div>
     </div>
 </div>
-<div class="row">
-    <div class="column">
-        <img src="tree-time-5195739_640.jpg" style="width:100%">
-        <img src="flamboyant.jpg" style="width:100%">
-        <img src="flamboyant-3303373_640.jpg" style="width:100%">
-        <img src="flamboyant-g5a1d5b5f5_1280.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant-g5a1d5b5f5_1280.jpg" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant-3303373_640.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="tree-time-5195739_640.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant-g5a1d5b5f5_1280.jpg" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="tree-time-5195739_640.jpg" style="width:100%">
-        <img src="flamboyant.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="flamboyant-g5a1d5b5f5_1280.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant-3303373_640.jpg" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant.jpg" style="width:100%">
-        <img src="flamboyant-3303373_640.jpg" style="width:100%">
-        <img src="tree-time-5195739_640.jpg" style="width:100%">
-        <img src="flower-g6405617ae_1280.jpg" style="width:100%">
-        <img src="flamboyant-ge0b7767e2_1280.jpg" style="width:100%">
-        <img src="flamboyant-g5a1d5b5f5_1280.jpg" style="width:100%">
-    </div>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+    <h2>Suivez nous sur les réseau sociaux</h2>
+    <a href="" class="social"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="" class="social"><ion-icon name="logo-twitter"></ion-icon></a>
+    <a href="" class="social"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="" class="social"><ion-icon name="logo-youtube"></ion-icon></a>
 </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-</html>
